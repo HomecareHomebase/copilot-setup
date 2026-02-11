@@ -363,7 +363,8 @@ $promptFiles = @(
 )
 
 $skillFolders = @(
-    "ilspy-decompile"
+    "ilspy-decompile",
+    "figma-implement-design",
 )
 
 $updateVerb = if ($script:IsDryRun) { "Would update" } else { "Updated" }
