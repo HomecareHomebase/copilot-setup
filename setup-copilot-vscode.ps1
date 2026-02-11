@@ -304,7 +304,7 @@ $agentsRoot = Join-Path $vsCodeUserRoot "prompts"
 $promptsRoot = Join-Path $vsCodeUserRoot "prompts"
 $skillsRoot = Join-Path (Join-Path $HOME ".copilot") "skills"
 $vsCodeVersion = Get-VsCodeVersion
-$minVsCodeVersion = [version]"1.109.0"
+$minVsCodeVersion = [version]"1.109.2"
 
 $tempRoot = Join-Path ([System.IO.Path]::GetTempPath()) ("hchb-ai-tools-" + [Guid]::NewGuid())
 
@@ -431,6 +431,7 @@ $settingsUpdates = [ordered]@{
     "github.copilot.chat.anthropic.thinking.budgetTokens" = 32000
     "chat.useNestedAgentsMdFiles" = $true
     "chat.experimental.useSkillAdherencePrompt" = $true
+    "chat.askQuestions.enabled" = $true
 }
 
 foreach ($key in $settingsUpdates.Keys) {
