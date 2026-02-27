@@ -355,6 +355,7 @@ $agentFiles = @(
     "hchb-planner-subagent.agent.md",
     "hchb-implement-subagent.agent.md",
     "hchb-code-review-subagent.agent.md",
+    "hchb-security-review-subagent.agent.md",
     "hchb-test-plan-subagent.agent.md"
 )
 
@@ -364,7 +365,8 @@ $promptFiles = @(
 
 $skillFolders = @(
     "ilspy-decompile",
-    "figma-implement-design"
+    "figma-implement-design",
+    "owasp-security"
 )
 
 $updateVerb = if ($script:IsDryRun) { "Would update" } else { "Updated" }
