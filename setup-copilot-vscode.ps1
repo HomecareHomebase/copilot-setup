@@ -366,7 +366,8 @@ $promptFiles = @(
 $skillFolders = @(
     "ilspy-decompile",
     "figma-implement-design",
-    "owasp-security"
+    "owasp-security",
+    "solid"
 )
 
 $updateVerb = if ($script:IsDryRun) { "Would update" } else { "Updated" }
