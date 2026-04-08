@@ -352,11 +352,14 @@ try {
 Write-Step "Step 2: Sync Copilot assets"
 # TODO: Populate these lists. Leave empty to sync everything in that folder.
 $agentFiles = @(
-    "hchb-planner-subagent.agent.md",
-    "hchb-implement-subagent.agent.md",
+    "adr-generator.agent.md",
+    "agent-orchestrator.agent.md",
     "hchb-code-review-subagent.agent.md",
+    "hchb-implement-subagent.agent.md",
+    "hchb-planner-subagent.agent.md",
     "hchb-security-review-subagent.agent.md",
-    "hchb-test-plan-subagent.agent.md"
+    "hchb-test-plan-subagent.agent.md",
+    "sprint-deployment-tracker.agent.md"
 )
 
 $promptFiles = @(
