@@ -364,11 +364,18 @@ $promptFiles = @(
 )
 
 $skillFolders = @(
+    "create-test-worker",
+    "dotnet-eda",
     "figma-implement-design",
+    "frontend-design",
+    "hchb-kubernetes-troubleshooting",
     "ilspy-decompile",
     "ldc-usage",
+    "license-automapper",
+    "napkin",
     "owasp-security",
-    "solid"
+    "solid",
+    "understanding-worker-db-schema"
 )
 
 $updateVerb = if ($script:IsDryRun) { "Would update" } else { "Updated" }
