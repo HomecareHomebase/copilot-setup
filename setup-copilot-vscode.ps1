@@ -364,8 +364,9 @@ $promptFiles = @(
 )
 
 $skillFolders = @(
-    "ilspy-decompile",
     "figma-implement-design",
+    "ilspy-decompile",
+    "ldc-usage",
     "owasp-security",
     "solid"
 )
